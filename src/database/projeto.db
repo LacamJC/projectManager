@@ -1,8 +1,0 @@
-CREATE TABLE projeto(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    id_status INTEGER,
-    nome TEXT,
-    conclusao INTEGER,
-    qtd_tarefas INTEGER,
-    FOREIGN KEY (id_status) REFERENCES status(id)
-)

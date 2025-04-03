@@ -1,4 +1,0 @@
-CREATE TABLE status(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nome TEXT
-)
