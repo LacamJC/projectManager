@@ -1,7 +1,8 @@
 CREATE TABLE projeto(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    id_projeto INTEGER,
+    id_status INTEGER,
     nome TEXT,
     conclusao INTEGER,
-    FOREIGN KEY (id_projeto) REFERENCES projeto(id)
+    qtd_tarefas INTEGER,
+    FOREIGN KEY (id_status) REFERENCES status(id)
 )
