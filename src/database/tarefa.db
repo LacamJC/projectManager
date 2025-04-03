@@ -1,0 +1,8 @@
+CREATE TABLE projeto(
+    id INTEGER AUTOINCREMENT PRIMARY KEY,
+    id_status INTEGER,
+    nome TEXT,
+    descricao TEXT,
+    conclusao INTEGER DEFAULT 0,
+    FOREIGN KEY (id_status) REFERENCES status(id)
+)
